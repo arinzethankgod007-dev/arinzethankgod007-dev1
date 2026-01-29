@@ -1,0 +1,85 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+}
+
+/* HEADER */
+header {
+  background: #111;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+header p {
+  margin-top: 8px;
+  color: #ccc;
+  font-size: 14px;
+}
+
+/* PRODUCTS LAYOUT */
+.products {
+  display: flex;
+  gap: 25px;
+  padding: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* PRODUCT CARD */
+.product {
+  background: white;
+  padding: 15px;
+  width: 220px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* PRODUCT IMAGE */
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* PRODUCT NAME */
+.product h3 {
+  margin: 10px 0 5px;
+}
+
+/* PRICE */
+.product p {
+  font-weight: bold;
+}
+
+/* BUTTON */
+.product a {
+  display: block;
+  margin-top: 12px;
+  background: #25D366;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* BUTTON HOVER */
+.product a:hover {
+  background: #1ebe5d;
+}
+
+/* FOOTER */
+footer {
+  background: #ddd;
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+}

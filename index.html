@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ArinzeThankGodShoes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Arinze Thank God</h1>
+    <p>Elite & Premium Quality Shoes</p>
+  </header>
+
+  <section class="products">
+    <div class="products">
+      <img src="Miu Miu Banana.jpg" alt="Shoe">
+      <h3>Leather Shoe</h3>
+      <p>₦5,999</p>
+      <a href="#" onclick="orderNow('Leather Shoe', '₦5,999')">
+  Order on WhatsApp
+</a>
+    </div>
+
+    <div class="products">
+      <img src="YSL Flat.jpg" alt="Shoe">
+      <h3>YSL Slipper</h3>
+      <p>₦11,999</p>
+      <a href="https://wa.me/2349166798258">Order on WhatsApp</a>
+      <a href="#" onclick="orderNow('YSL Slipper', '₦11,999')">
+  Order on WhatsApp
+</a>
+      <script>
+  function orderNow(productName, price) {
+    let message = "Hello, I want to order " + productName + " for " + price;
+    let phone = "2349166798258";
+    let url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(message);
+    window.open(url, "_blank");
+  }
+</script>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Arinze Footwear</p>
+  </footer>
+  
+</body>
+</html>
