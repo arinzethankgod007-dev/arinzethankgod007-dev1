@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arinzethankgod007-dev.github.io/arinzethankgod007-dev1/sitemap.xml
